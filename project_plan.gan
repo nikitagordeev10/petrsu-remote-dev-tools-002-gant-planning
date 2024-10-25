@@ -1,0 +1,326 @@
+<?xml version="1.0" encoding="UTF-8"?><project name="Цифровой ассистент для трекинга походки человека " company="ПетрГУ" webLink="https://se.cs.petrsu.ru/wiki/Цифровой_ассистент_для_трекинга_походки_человека" view-date="2023-07-01" view-index="0" gantt-divider-location="549" resource-divider-location="300" version="3.2.3247" locale="ru_RU">
+    <description/>
+    <view zooming-state="default:9" id="gantt-chart">
+        <field id="tpd3" name="Название" width="303" order="0"/>
+        <field id="tpd4" name="Дата начала" width="115" order="1"/>
+        <field id="tpd5" name="Дата окончания" width="115" order="2"/>
+        <option id="taskLabelUp" value="coordinator"/>
+        <option id="taskLabelDown" value="length"/>
+        <option id="filter.completedTasks" value="false"/>
+        <option id="color.recent">
+            <![CDATA[#ff0000 #333333 #33ffff #990099 #0066ff #00cc00 #ffff33 #ff9900]]>
+        </option>
+    </view>
+    <view id="resource-table">
+        <field id="0" name="Имя" width="210" order="0"/>
+        <field id="1" name="Стандартная роль" width="86" order="1"/>
+    </view>
+    <!-- -->
+    <calendars base-id="нет">
+        <day-types>
+            <day-type id="0"/>
+            <day-type id="1"/>
+            <default-week id="1" name="default" sun="1" mon="0" tue="0" wed="0" thu="0" fri="0" sat="1"/>
+            <only-show-weekends value="false"/>
+            <overriden-day-types/>
+            <days/>
+        </day-types>
+        <date year="2023" month="12" date="22" type="NEUTRAL" color="#ff0000"/>
+    </calendars>
+    <tasks empty-milestones="true">
+        <taskproperties>
+            <taskproperty id="tpd0" name="type" type="default" valuetype="icon"/>
+            <taskproperty id="tpd1" name="priority" type="default" valuetype="icon"/>
+            <taskproperty id="tpd2" name="info" type="default" valuetype="icon"/>
+            <taskproperty id="tpd3" name="name" type="default" valuetype="text"/>
+            <taskproperty id="tpd4" name="begindate" type="default" valuetype="date"/>
+            <taskproperty id="tpd5" name="enddate" type="default" valuetype="date"/>
+            <taskproperty id="tpd6" name="duration" type="default" valuetype="int"/>
+            <taskproperty id="tpd7" name="completion" type="default" valuetype="int"/>
+            <taskproperty id="tpd8" name="coordinator" type="default" valuetype="text"/>
+            <taskproperty id="tpd9" name="predecessorsr" type="default" valuetype="text"/>
+        </taskproperties>
+        <task id="38" name="Старт" color="#333333" meeting="true" start="2023-09-04" duration="0" complete="0" thirdDate="2023-09-04" thirdDate-constraint="0" priority="4" expand="true">
+            <depend id="0" type="2" difference="0" hardness="Strong"/>
+            <depend id="1" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="0" name="ПЛАНИРОВАНИЕ" color="#8cb6ce" meeting="false" start="2023-09-04" duration="15" complete="93" thirdDate="2023-09-25" thirdDate-constraint="0" expand="false">
+            <depend id="39" type="2" difference="0" hardness="Strong"/>
+            <task id="1" name="Определение целей и задач проекта" color="#ff0000" meeting="false" start="2023-09-04" duration="5" complete="100" thirdDate="2023-09-14" thirdDate-constraint="0" expand="true">
+                <depend id="2" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="2" name="Распределение ролей" color="#ff0000" meeting="false" start="2023-09-11" duration="1" complete="100" thirdDate="2023-09-25" thirdDate-constraint="0" expand="true">
+                <depend id="9" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="9" name="(к) Составление плана проекта и определение временых рамок" color="#ff0000" meeting="false" start="2023-09-12" duration="6" complete="100" thirdDate="2023-08-28" thirdDate-constraint="0" expand="true">
+                <depend id="11" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="11" name="Планирование участия в акселерационных программах" color="#ff0000" meeting="false" start="2023-09-20" duration="3" complete="100" thirdDate="2023-08-28" thirdDate-constraint="0" expand="true">
+                <depend id="39" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="43" name="Создание и оформление страницы проекта" meeting="false" start="2023-09-04" duration="1" complete="0" expand="true">
+                <task id="39" name="Готовый План Проекта" color="#333333" meeting="true" start="2023-09-25" duration="0" complete="0" thirdDate="2023-08-07" thirdDate-constraint="0" expand="true">
+                    <depend id="3" type="2" difference="0" hardness="Strong"/>
+                    <depend id="4" type="2" difference="0" hardness="Strong"/>
+                    <depend id="12" type="2" difference="0" hardness="Strong"/>
+                    <depend id="16" type="2" difference="0" hardness="Strong"/>
+                </task>
+            </task>
+        </task>
+        <task id="3" name="СПЕЦИФИКАЦИЯ ТРЕБОВАНИЙ" color="#8cb6ce" meeting="false" start="2023-09-25" duration="15" complete="4" thirdDate="2023-08-31" thirdDate-constraint="0" expand="false">
+            <task id="4" name="Изучение предметной области" color="#ff9900" meeting="false" start="2023-09-25" duration="10" complete="8" thirdDate="2023-08-28" thirdDate-constraint="0" expand="true">
+                <depend id="13" type="2" difference="0" hardness="Strong"/>
+                <depend id="14" type="2" difference="0" hardness="Strong"/>
+                <depend id="15" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="12" name="(к) Обсуждение деталей с заказчиком" color="#ff9900" meeting="false" start="2023-09-25" duration="10" complete="8" thirdDate="2023-10-09" thirdDate-constraint="0" expand="true">
+                <depend id="13" type="2" difference="0" hardness="Strong"/>
+                <depend id="14" type="2" difference="0" hardness="Strong"/>
+                <depend id="15" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="13" name="Составление функциональных требований" color="#ff9900" meeting="false" start="2023-10-09" duration="5" complete="0" thirdDate="2023-10-09" thirdDate-constraint="0" expand="true">
+                <depend id="40" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="14" name="Составление функциональных ограничений" color="#ff9900" meeting="false" start="2023-10-09" duration="5" complete="0" thirdDate="2023-10-09" thirdDate-constraint="0" expand="true">
+                <depend id="40" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="15" name="Создание документа с требованиями и спецификацией продукта" color="#ff9900" meeting="false" start="2023-10-09" duration="5" complete="0" thirdDate="2023-10-09" thirdDate-constraint="0" expand="true">
+                <depend id="40" type="2" difference="0" hardness="Strong"/>
+            </task>
+        </task>
+        <task id="40" name="(к) Составленнная спецификация требований" color="#333333" meeting="true" start="2023-10-16" duration="0" complete="0" thirdDate="2023-10-16" thirdDate-constraint="0" expand="true">
+            <depend id="5" type="2" difference="0" hardness="Strong"/>
+            <depend id="17" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="5" name="ПРОЕКТИРОВАНИЕ" color="#8cb6ce" meeting="false" start="2023-10-16" duration="20" complete="0" thirdDate="2023-08-28" thirdDate-constraint="0" expand="false">
+            <depend id="41" type="2" difference="0" hardness="Strong"/>
+            <task id="17" name="(к) Разработка архитектуры системы и выбор используемых технологий" color="#ffff33" meeting="false" start="2023-10-16" duration="10" complete="0" thirdDate="2023-10-16" thirdDate-constraint="0" priority="4" expand="true">
+                <depend id="18" type="2" difference="0" hardness="Strong"/>
+                <depend id="19" type="2" difference="0" hardness="Strong"/>
+                <depend id="20" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="18" name="(к) Проектирование базы данных для хранения данных походки" color="#ffff33" meeting="false" start="2023-10-30" duration="5" complete="0" thirdDate="2023-10-30" thirdDate-constraint="0" expand="true">
+                <depend id="21" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="19" name="(к) Определение основных параметров трекинга походки" color="#ffff33" meeting="false" start="2023-10-30" duration="5" complete="0" thirdDate="2023-10-30" thirdDate-constraint="0" expand="true">
+                <depend id="21" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="20" name="(к) Способы визуализация полученных метрик" color="#ffff33" meeting="false" start="2023-10-30" duration="5" complete="0" thirdDate="2023-10-30" thirdDate-constraint="0" expand="true">
+                <depend id="21" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="21" name="Разработка прототипа (дизайна) пользовательского интерфейса для просмотра и анализа данных походки" color="#ffff33" meeting="false" start="2023-11-06" duration="5" complete="0" thirdDate="2023-08-28" thirdDate-constraint="0" expand="true">
+                <depend id="41" type="2" difference="0" hardness="Strong"/>
+            </task>
+        </task>
+        <task id="41" name="Готовый документ проектирования" color="#333333" meeting="true" start="2023-11-13" duration="0" complete="0" thirdDate="2023-11-13" thirdDate-constraint="0" expand="true">
+            <depend id="6" type="2" difference="0" hardness="Strong"/>
+            <depend id="22" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="6" name="КОДИРОВАНИЕ" color="#8cb6ce" meeting="false" start="2023-11-13" duration="20" complete="0" thirdDate="2023-08-28" thirdDate-constraint="0" expand="false">
+            <depend id="7" type="2" difference="0" hardness="Strong"/>
+            <depend id="28" type="2" difference="0" hardness="Strong"/>
+            <task id="22" name="(к) Интеграция различных компонентов VR системы" color="#00cc00" meeting="false" start="2023-11-13" duration="5" complete="0" thirdDate="2023-11-13" thirdDate-constraint="0" expand="true">
+                <depend id="23" type="2" difference="0" hardness="Strong"/>
+                <depend id="24" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="23" name="Написание основного кода для реализации ассистента по трекингу походки" color="#000000" meeting="false" start="2023-11-20" duration="15" complete="0" thirdDate="2023-11-20" thirdDate-constraint="0" expand="true">
+                <depend id="7" type="2" difference="0" hardness="Strong"/>
+                <task id="24" name="(к) Подключение трекеров к юнити" color="#00cc00" meeting="false" start="2023-11-20" duration="2" complete="0" thirdDate="2023-08-28" thirdDate-constraint="0" expand="true">
+                    <depend id="25" type="2" difference="0" hardness="Strong"/>
+                    <depend id="26" type="2" difference="0" hardness="Strong"/>
+                    <depend id="27" type="2" difference="0" hardness="Strong"/>
+                </task>
+                <task id="25" name="(к) Сбор данных с трекеров" color="#00cc00" meeting="false" start="2023-11-22" duration="1" complete="0" thirdDate="2023-11-22" thirdDate-constraint="0" expand="true">
+                    <depend id="29" type="2" difference="0" hardness="Strong"/>
+                    <depend id="30" type="2" difference="0" hardness="Strong"/>
+                    <depend id="31" type="2" difference="0" hardness="Strong"/>
+                </task>
+                <task id="26" name="Обработка данных (формулы)" color="#00cc00" meeting="false" start="2023-11-22" duration="3" complete="0" thirdDate="2023-11-22" thirdDate-constraint="0" expand="true">
+                    <depend id="29" type="2" difference="0" hardness="Strong"/>
+                    <depend id="30" type="2" difference="0" hardness="Strong"/>
+                    <depend id="31" type="2" difference="0" hardness="Strong"/>
+                </task>
+                <task id="27" name="Подготовка данных для вывода" color="#00cc00" meeting="false" start="2023-11-22" duration="13" complete="0" thirdDate="2023-08-28" thirdDate-constraint="0" expand="true">
+                    <depend id="29" type="2" difference="0" hardness="Strong"/>
+                    <depend id="30" type="2" difference="0" hardness="Strong"/>
+                    <depend id="31" type="2" difference="0" hardness="Strong"/>
+                </task>
+            </task>
+        </task>
+        <task id="7" name="ТЕСТИРОВАНИЕ И ОТЛАДКА" color="#8cb6ce" meeting="false" start="2023-12-11" duration="15" complete="0" thirdDate="2023-11-27" thirdDate-constraint="0" expand="false">
+            <depend id="42" type="2" difference="0" hardness="Strong"/>
+            <task id="28" name="Планирование и проведение различных видов тестирования, включая" color="#333333" meeting="false" start="2023-12-11" duration="5" complete="0" thirdDate="2023-11-27" thirdDate-constraint="0" expand="false">
+                <depend id="33" type="2" difference="0" hardness="Strong"/>
+                <task id="29" name="модульное" color="#0066ff" meeting="false" start="2023-12-11" duration="3" complete="0" thirdDate="2023-08-28" thirdDate-constraint="0" expand="true">
+                    <depend id="32" type="2" difference="0" hardness="Strong"/>
+                    <depend id="33" type="2" difference="0" hardness="Strong"/>
+                </task>
+                <task id="30" name="интеграционное" color="#0066ff" meeting="false" start="2023-12-11" duration="3" complete="0" thirdDate="2023-08-28" thirdDate-constraint="0" expand="true">
+                    <depend id="32" type="2" difference="0" hardness="Strong"/>
+                    <depend id="33" type="2" difference="0" hardness="Strong"/>
+                </task>
+                <task id="31" name="системное" color="#0066ff" meeting="false" start="2023-12-11" duration="3" complete="0" thirdDate="2023-08-28" thirdDate-constraint="0" expand="true">
+                    <depend id="32" type="2" difference="0" hardness="Strong"/>
+                    <depend id="33" type="2" difference="0" hardness="Strong"/>
+                </task>
+                <task id="32" name="пользовательское тестирование" color="#0066ff" meeting="false" start="2023-12-14" duration="2" complete="0" thirdDate="2023-11-30" thirdDate-constraint="0" expand="true">
+                    <depend id="33" type="2" difference="0" hardness="Strong"/>
+                </task>
+            </task>
+            <task id="33" name="Исправление ошибок и дефектов, выявленных на этапе тестирования (каждый по своей части)" color="#0066ff" meeting="false" start="2023-12-18" duration="5" complete="0" thirdDate="2023-08-28" thirdDate-constraint="0" expand="true">
+                <depend id="34" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="34" name="Верификация соответствия функциональных и некоторых нефункциональных требованиям" color="#0066ff" meeting="false" start="2023-12-25" duration="3" complete="0" thirdDate="2023-12-11" thirdDate-constraint="0" expand="true">
+                <depend id="35" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="35" name="Улучшение ассистента на основе обратной связи от тестировщиков и пользователей" color="#0066ff" meeting="false" start="2023-12-28" duration="2" complete="0" thirdDate="2023-08-28" thirdDate-constraint="0" expand="true">
+                <depend id="42" type="2" difference="0" hardness="Strong"/>
+            </task>
+        </task>
+        <task id="42" name="Разработанная программа" color="#333333" meeting="true" start="2024-01-01" duration="0" complete="0" thirdDate="2023-07-03" thirdDate-constraint="0" expand="true">
+            <depend id="8" type="2" difference="0" hardness="Strong"/>
+            <depend id="36" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="8" name="АТТЕСТАЦИЯ" color="#8cb6ce" meeting="false" start="2024-01-01" duration="187" complete="5" thirdDate="2023-12-18" thirdDate-constraint="0" expand="true">
+            <task id="16" name="Участие в акселерационной программе" color="#ff9900" meeting="false" start="2024-01-01" duration="59" complete="2" thirdDate="2023-09-25" thirdDate-constraint="0" expand="true"/>
+            <task id="10" name="Ведение страницы проекта" color="#ff0000" meeting="false" start="2024-06-13" duration="69" complete="8" thirdDate="2023-08-28" thirdDate-constraint="0" expand="true"/>
+            <task id="36" name="Подготовка и проведение демонстраций и практических испытаний ассистента перед заказчиком и акселерационной организацией" color="#990099" meeting="false" start="2024-01-01" duration="4" complete="0" thirdDate="2023-12-18" thirdDate-constraint="0" expand="true">
+                <depend id="37" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="37" name="(к) Предоставление отчета руководителю" color="#990099" meeting="true" start="2024-01-05" duration="0" complete="0" thirdDate="2023-12-18" thirdDate-constraint="0" expand="true"/>
+        </task>
+    </tasks>
+    <resources>
+        <resource id="0" name="Гордеев Н." function="SoftwareDevelopment:2" contacts="nikitagordeev10@yandex.ru" phone="8(921)627-72-66"/>
+        <resource id="1" name="Мурзаев Д." function="Default:1" contacts="" phone=""/>
+        <resource id="3" name="Дементьева Л." function="SoftwareDevelopment:3" contacts="" phone=""/>
+    </resources>
+    <allocations>
+        <allocation task-id="10" resource-id="0" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="0" resource-id="0" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="1" resource-id="0" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="9" resource-id="0" function="SoftwareDevelopment:2" responsible="false" load="100.0"/>
+        <allocation task-id="11" resource-id="0" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="4" resource-id="0" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="14" resource-id="0" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="13" resource-id="0" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="15" resource-id="0" function="SoftwareDevelopment:2" responsible="false" load="100.0"/>
+        <allocation task-id="16" resource-id="0" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="8" resource-id="0" function="SoftwareDevelopment:2" responsible="false" load="100.0"/>
+        <allocation task-id="17" resource-id="0" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="18" resource-id="0" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="19" resource-id="0" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="21" resource-id="0" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="22" resource-id="0" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="24" resource-id="0" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="25" resource-id="0" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="29" resource-id="0" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="32" resource-id="0" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="33" resource-id="0" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="34" resource-id="0" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="35" resource-id="0" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="36" resource-id="0" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="37" resource-id="0" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="10" resource-id="1" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="1" resource-id="1" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="2" resource-id="1" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="9" resource-id="1" function="Default:1" responsible="false" load="100.0"/>
+        <allocation task-id="11" resource-id="1" function="Default:1" responsible="false" load="100.0"/>
+        <allocation task-id="4" resource-id="1" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="12" resource-id="1" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="13" resource-id="1" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="15" resource-id="1" function="Default:1" responsible="false" load="100.0"/>
+        <allocation task-id="16" resource-id="1" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="8" resource-id="1" function="Default:1" responsible="false" load="100.0"/>
+        <allocation task-id="17" resource-id="1" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="18" resource-id="1" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="19" resource-id="1" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="21" resource-id="1" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="22" resource-id="1" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="24" resource-id="1" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="26" resource-id="1" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="31" resource-id="1" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="32" resource-id="1" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="33" resource-id="1" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="34" resource-id="1" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="35" resource-id="1" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="36" resource-id="1" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="37" resource-id="1" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="10" resource-id="3" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="1" resource-id="3" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="9" resource-id="3" function="SoftwareDevelopment:3" responsible="true" load="100.0"/>
+        <allocation task-id="9" resource-id="3" function="SoftwareDevelopment:3" responsible="true" load="100.0"/>
+        <allocation task-id="4" resource-id="3" function="SoftwareDevelopment:3" responsible="true" load="100.0"/>
+        <allocation task-id="14" resource-id="3" function="SoftwareDevelopment:3" responsible="true" load="100.0"/>
+        <allocation task-id="15" resource-id="3" function="SoftwareDevelopment:3" responsible="true" load="100.0"/>
+        <allocation task-id="16" resource-id="3" function="SoftwareDevelopment:3" responsible="true" load="100.0"/>
+        <allocation task-id="8" resource-id="3" function="SoftwareDevelopment:3" responsible="false" load="100.0"/>
+        <allocation task-id="17" resource-id="3" function="SoftwareDevelopment:3" responsible="true" load="100.0"/>
+        <allocation task-id="18" resource-id="3" function="SoftwareDevelopment:3" responsible="true" load="100.0"/>
+        <allocation task-id="20" resource-id="3" function="SoftwareDevelopment:3" responsible="true" load="100.0"/>
+        <allocation task-id="21" resource-id="3" function="SoftwareDevelopment:3" responsible="true" load="100.0"/>
+        <allocation task-id="22" resource-id="3" function="SoftwareDevelopment:3" responsible="true" load="100.0"/>
+        <allocation task-id="24" resource-id="3" function="SoftwareDevelopment:3" responsible="true" load="100.0"/>
+        <allocation task-id="27" resource-id="3" function="SoftwareDevelopment:3" responsible="true" load="100.0"/>
+        <allocation task-id="30" resource-id="3" function="SoftwareDevelopment:3" responsible="true" load="100.0"/>
+        <allocation task-id="32" resource-id="3" function="SoftwareDevelopment:3" responsible="true" load="100.0"/>
+        <allocation task-id="33" resource-id="3" function="SoftwareDevelopment:3" responsible="true" load="100.0"/>
+        <allocation task-id="34" resource-id="3" function="SoftwareDevelopment:3" responsible="true" load="100.0"/>
+        <allocation task-id="35" resource-id="3" function="SoftwareDevelopment:3" responsible="true" load="100.0"/>
+        <allocation task-id="36" resource-id="3" function="SoftwareDevelopment:3" responsible="true" load="100.0"/>
+        <allocation task-id="37" resource-id="3" function="SoftwareDevelopment:3" responsible="true" load="100.0"/>
+    </allocations>
+    <vacations/>
+    <previous>
+        <previous-tasks name="26.09.23">
+            <previous-task id="38" start="2023-09-04" duration="0" meeting="true" super="false"/>
+            <previous-task id="0" start="2023-09-04" duration="15" meeting="false" super="true"/>
+            <previous-task id="1" start="2023-09-04" duration="5" meeting="false" super="false"/>
+            <previous-task id="2" start="2023-09-11" duration="1" meeting="false" super="false"/>
+            <previous-task id="9" start="2023-09-12" duration="6" meeting="false" super="false"/>
+            <previous-task id="11" start="2023-09-20" duration="3" meeting="false" super="false"/>
+            <previous-task id="10" start="2023-09-11" duration="69" meeting="false" super="false"/>
+            <previous-task id="39" start="2023-09-25" duration="0" meeting="true" super="false"/>
+            <previous-task id="16" start="2023-09-25" duration="59" meeting="false" super="false"/>
+            <previous-task id="3" start="2023-09-25" duration="15" meeting="false" super="true"/>
+            <previous-task id="4" start="2023-09-25" duration="10" meeting="false" super="false"/>
+            <previous-task id="12" start="2023-09-25" duration="10" meeting="false" super="false"/>
+            <previous-task id="13" start="2023-10-09" duration="5" meeting="false" super="false"/>
+            <previous-task id="14" start="2023-10-09" duration="5" meeting="false" super="false"/>
+            <previous-task id="15" start="2023-10-09" duration="5" meeting="false" super="false"/>
+            <previous-task id="40" start="2023-10-16" duration="0" meeting="true" super="false"/>
+            <previous-task id="5" start="2023-10-16" duration="20" meeting="false" super="true"/>
+            <previous-task id="17" start="2023-10-16" duration="10" meeting="false" super="false"/>
+            <previous-task id="18" start="2023-10-30" duration="5" meeting="false" super="false"/>
+            <previous-task id="19" start="2023-10-30" duration="5" meeting="false" super="false"/>
+            <previous-task id="20" start="2023-10-30" duration="5" meeting="false" super="false"/>
+            <previous-task id="21" start="2023-11-06" duration="5" meeting="false" super="false"/>
+            <previous-task id="41" start="2023-11-13" duration="0" meeting="true" super="false"/>
+            <previous-task id="6" start="2023-11-13" duration="10" meeting="false" super="true"/>
+            <previous-task id="22" start="2023-11-13" duration="5" meeting="false" super="false"/>
+            <previous-task id="23" start="2023-11-20" duration="5" meeting="false" super="true"/>
+            <previous-task id="24" start="2023-11-20" duration="2" meeting="false" super="false"/>
+            <previous-task id="25" start="2023-11-22" duration="3" meeting="false" super="false"/>
+            <previous-task id="26" start="2023-11-22" duration="3" meeting="false" super="false"/>
+            <previous-task id="27" start="2023-11-22" duration="3" meeting="false" super="false"/>
+            <previous-task id="7" start="2023-11-27" duration="15" meeting="false" super="true"/>
+            <previous-task id="28" start="2023-11-27" duration="5" meeting="false" super="true"/>
+            <previous-task id="29" start="2023-11-27" duration="3" meeting="false" super="false"/>
+            <previous-task id="30" start="2023-11-27" duration="3" meeting="false" super="false"/>
+            <previous-task id="31" start="2023-11-27" duration="3" meeting="false" super="false"/>
+            <previous-task id="32" start="2023-11-30" duration="2" meeting="false" super="false"/>
+            <previous-task id="33" start="2023-12-04" duration="5" meeting="false" super="false"/>
+            <previous-task id="34" start="2023-12-11" duration="3" meeting="false" super="false"/>
+            <previous-task id="35" start="2023-12-14" duration="2" meeting="false" super="false"/>
+            <previous-task id="42" start="2023-12-18" duration="0" meeting="true" super="false"/>
+            <previous-task id="8" start="2023-12-18" duration="4" meeting="false" super="true"/>
+            <previous-task id="36" start="2023-12-18" duration="4" meeting="false" super="false"/>
+            <previous-task id="37" start="2023-12-22" duration="0" meeting="true" super="false"/>
+        </previous-tasks>
+    </previous>
+    <roles roleset-name="Default"/>
+    <roles roleset-name="SoftwareDevelopment"/>
+    <roles>
+        <role id="1" name=""/>
+    </roles>
+</project>
